@@ -1,4 +1,4 @@
-FROM mysql:5.5
+FROM mysql:5.5.40
 ENV REPLICATION_USER replication
 ENV REPLICATION_PASSWORD replication_pass
 COPY replication-entrypoint.sh /usr/local/bin/
